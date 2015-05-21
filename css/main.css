@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background-color: #83B9D5;
+	height: 40vh;
+	padding: 4em;
+	color: white;
+}
+
+.bryan {
+	font-size: 3.7em;
+}
+.swagerty {
+	margin-top: -0.35em;
+	font-size: 3.7em
+;}
+
+header > p {
+	font-size: 1.5em;
+	margin-top: 2em;
+}
+
+header > * {
+	margin: 0;
+	text-align: center;
+}
+
+.second-block {
+	height: 20em;
+	background-color: #83d5c8;
+	color: white;
+	padding-top: 10em;
+}
+
+.content {
+	max-width: 50em;
+	margin: 0 auto;
+}
