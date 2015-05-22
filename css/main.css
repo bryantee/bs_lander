@@ -3,24 +3,27 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+/* ------- Header ------*/
+
 header {
 	background-color: #83B9D5;
-	height: 40vh;
+	height: 25em;
 	padding: 4em;
 	color: white;
 }
 
 .bryan {
-	font-size: 3.7em;
+	font-size: 4em;
 }
 .swagerty {
 	margin-top: -0.35em;
-	font-size: 3.7em
+	font-size: 4em
 ;}
 
 header > p {
-	font-size: 1.5em;
+	font-size: 2em;
 	margin-top: 2em;
+	font-family: 'Indie Flower', cursive;
 }
 
 header > * {
@@ -28,8 +31,34 @@ header > * {
 	text-align: center;
 }
 
+/*----------Media Query Header ------*/
+
+
+@media only screen and (max-width: 1000px) {
+	header {
+		height: 100vh;
+	}
+	.bryan,
+	.swagerty {
+		font-size: 10em;
+	}
+	header > p {
+		font-size: 4.7em;
+	}
+	p.content {
+		font-size: 1.5em;
+	}
+	.content {
+		padding: 1.4em;
+	}
+	.block {
+		padding: 1em 1em;
+	}
+}
+
+
 .block {
-	height: 14em;
+	min-height: 14em;
 	padding: 10em 0;
 }
 
@@ -47,17 +76,22 @@ header > * {
 	max-width: 45em;
 	margin: 0 auto;
 	font-size: 1.2em;
+
 }
 
 /* FOOTER */
 
 footer {
 	background-color: #8390d5;
-	padding: 7em 0;
-	margin-top: 4em;
+	padding: 5em 0;
 	width: 100%;
 	color: white;
 	text-align: center;
+}
+
+.look-through {
+	font-family: 'Indie Flower', cursive;
+	margin-bottom: -1em;
 }
 
 footer > ul {
@@ -73,4 +107,16 @@ footer > ul {
 
 .social a:hover {
 	color: #83d5c8;
+}
+
+.social-icon {
+	font-size: 4em;
+
+}
+
+.social1, 
+.social2,
+.social3,
+.social4 {
+	display: none;
 }
