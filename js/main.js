@@ -1,7 +1,12 @@
 $(document).ready(function() {
+
+	//fade in header stuff upon load
+	
 	console.log('documentloaded');
 	$('.bryan, .swagerty').hide(0).delay(500).fadeIn('slow');
 	$('header > p').hide(0).delay(700).fadeIn('slow');
+
+	//mouseover handlers for footer social icons
 
 	$('.twitter').mouseover(function() {
 		console.log('mouseover twitter line');
